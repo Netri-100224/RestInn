@@ -23,11 +23,20 @@ RestInn is your all-in-one solution for hotel management and booking, designed t
 
 - **RDBMS:** MySQL
 - **Connection:** Configured via `application.properties`
-- **Schema includes**:
-  - `User` (id, name, email, password, role)
-  - `Hotel` (id, name, location, roomsAvailable, pricePerNight, rating, managerId)
-  - `Booking` (id, userId, hotelId, checkInDate, checkOutDate, status)
+- User: id, email, first_name, last_name, password, role
 
+-Hotel: id, available_rooms, description, location, name, total_rooms, manager_id
+
+-Booking: id, check_in_date, check_out_date, hotel_id, user_id
+
+---
+🔗 Relationships
+
+One-to-Many (User → Booking): A customer can have multiple bookings.
+
+One-to-Many (Hotel → Booking): A hotel can have multiple bookings.
+
+One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_MANAGER.
 ---
 
 ## ✨ Key Features
