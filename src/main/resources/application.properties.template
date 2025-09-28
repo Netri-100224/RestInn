@@ -1,0 +1,12 @@
+spring.application.name=booking
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/restinn_db
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=true
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
+jwt.secret=YOUR_JWT_SECRET_KEY
