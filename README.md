@@ -1,5 +1,13 @@
 # RestInn
 
+# RestInn
+
+[![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-green?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Maven](https://img.shields.io/badge/Maven-3.8.6-red?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![JWT](https://img.shields.io/badge/JWT-json_web_token-orange?logo=json-web-tokens&logoColor=white)](https://jwt.io/)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
 
 
 ## 📝 Description
