@@ -30,14 +30,14 @@ RestInn is your all-in-one solution for hotel management and booking, designed t
 -Booking: id, check_in_date, check_out_date, hotel_id, user_id
 
 ---
-🔗 Relationships
+## 🔗 Relationships
 
 One-to-Many (User → Booking): A customer can have multiple bookings.
 
 One-to-Many (Hotel → Booking): A hotel can have multiple bookings.
 
 One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_MANAGER.
----
+
 
 ## ✨ Key Features
 
