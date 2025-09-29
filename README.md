@@ -1,4 +1,4 @@
-# RestInn
+# RestInn – The Inn-side Job Done Right. 😉
 
 # RestInn
 
