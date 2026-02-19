@@ -7,7 +7,8 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Maven](https://img.shields.io/badge/Maven-3.8.6-red?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
-[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/idea/)
+[![JUnit](https://img.shields.io/badge/JUnit-25A162?logo=junit&logoColor=white)](https://junit.org/)
+
 
 
 
