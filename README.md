@@ -6,7 +6,6 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-green?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Maven](https://img.shields.io/badge/Maven-3.8.6-red?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
-[![JWT](https://img.shields.io/badge/JWT-json_web_token-orange?logo=json-web-tokens&logoColor=white)](https://jwt.io/)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
 
 
@@ -22,8 +21,8 @@ RestInn is your all-in-one solution for hotel management and booking, designed t
 | Backend       | Java 11+, Spring Boot   |
 | Build Tool    | Maven                   |
 | Database      | MySQL                   |
-| Security      | Spring Security, JWT    |
 | Testing       | JUnit, Mockito          |
+
 
 ---
 
@@ -50,7 +49,7 @@ One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_M
 ## ✨ Key Features
 
 ### 👤 For Users:
-- Register, login, and access JWT-secured APIs
+- Register, login, and access APIs
 - Search hotels by location, date range, and availability
 - Book hotels, view bookings, cancel bookings
 
@@ -66,12 +65,7 @@ One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_M
 
 ---
 
-## 📦 Key Dependencies
 
-```
-jjwt-api: 0.11.2
-jjwt-impl: 0.11.2
-jjwt-orgjson: 0.11.2
 ```
 
 ## 📁 Project Structure
