@@ -75,68 +75,72 @@ One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_M
 
 RestInn/
 ├── .mvn/
-│ └── wrapper/
-│ └── maven-wrapper.properties
+│   └── wrapper/
+│       └── maven-wrapper.properties
 ├── mvnw
 ├── mvnw.cmd
 ├── pom.xml
 └── src/
-├── main/
-│ ├── java/
-│ │ └── com/hotel/booking/
-│ │ ├── BookingApplication.java
-│ │ ├── Config/
-│ │ │ ├── CustomAccessHandler.java
-│ │ │ ├── JWTAuthenticationFilter.java
-│ │ │ └── SecurityConfig.java
-│ │ ├── Controller/
-│ │ │ ├── AuthController.java
-│ │ │ ├── BookingController.java
-│ │ │ └── HotelController.java
-│ │ ├── DTO/
-│ │ │ ├── AuthRequest.java
-│ │ │ ├── AuthResponse.java
-│ │ │ ├── BookingMapper.java
-│ │ │ ├── BookingRequest.java
-│ │ │ ├── BookingResponse.java
-│ │ │ ├── HotelRequest.java
-│ │ │ ├── HotelResponse.java
-│ │ │ ├── RegisterRequest.java
-│ │ │ └── UserResponse.java
-│ │ ├── Entity/
-│ │ │ ├── Booking.java
-│ │ │ ├── Hotel.java
-│ │ │ ├── Role.java
-│ │ │ └── User.java
-│ │ ├── Exception/
-│ │ │ ├── BookingNotFoundException.java
-│ │ │ ├── GlobalExceptionHandler.java
-│ │ │ ├── HotelNotFoundException.java
-│ │ │ ├── HotelRoomsNotAvailableException.java
-│ │ │ ├── IncorrectDateException.java
-│ │ │ ├── UserAlreadyExistsException.java
-│ │ │ └── UserNotFoundException.java
-│ │ ├── Repository/
-│ │ │ ├── BookingRepository.java
-│ │ │ ├── HotelRepository.java
-│ │ │ └── UserRepository.java
-│ │ └── Service/
-│ │ ├── AuthService.java
-│ │ ├── BookingService.java
-│ │ ├── HotelService.java
-│ │ ├── JWTService.java
-│ │ └── UserService.java
-│ └── resources/
-│ └── application.properties.template
-└── test/
-└── java/com/hotel/booking/
-└── BookingApplicationTests.java
-
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── hotel/
+    │   │           └── booking/
+    │   │               ├── BookingApplication.java
+    │   │               ├── Config/
+    │   │               │   ├── CustomAccessHandler.java
+    │   │               │   ├── JWTAuthenticationFilter.java
+    │   │               │   └── SecurityConfig.java
+    │   │               ├── Controller/
+    │   │               │   ├── AuthController.java
+    │   │               │   ├── BookingController.java
+    │   │               │   └── HotelController.java
+    │   │               ├── DTO/
+    │   │               │   ├── AuthRequest.java
+    │   │               │   ├── AuthResponse.java
+    │   │               │   ├── BookingMapper.java
+    │   │               │   ├── BookingRequest.java
+    │   │               │   ├── BookingResponse.java
+    │   │               │   ├── HotelRequest.java
+    │   │               │   ├── HotelResponse.java
+    │   │               │   ├── RegisterRequest.java
+    │   │               │   └── UserResponse.java
+    │   │               ├── Entity/
+    │   │               │   ├── Booking.java
+    │   │               │   ├── Hotel.java
+    │   │               │   ├── Role.java
+    │   │               │   └── User.java
+    │   │               ├── Exception/
+    │   │               │   ├── BookingNotFoundException.java
+    │   │               │   ├── GlobalExceptionHandler.java
+    │   │               │   ├── HotelNotFoundException.java
+    │   │               │   ├── HotelRoomsNotAvailableException.java
+    │   │               │   ├── IncorrectDateException.java
+    │   │               │   ├── UserAlreadyExistsException.java
+    │   │               │   └── UserNotFoundException.java
+    │   │               ├── Repository/
+    │   │               │   ├── BookingRepository.java
+    │   │               │   ├── HotelRepository.java
+    │   │               │   └── UserRepository.java
+    │   │               └── Service/
+    │   │                   ├── AuthService.java
+    │   │                   ├── BookingService.java
+    │   │                   ├── HotelService.java
+    │   │                   ├── JWTService.java
+    │   │                   └── UserService.java
+    │   └── resources/
+    │       ├── application.properties.template
+    │       └── other-resources/  # if any other config files exist
+    └── test/
+        └── java/
+            └── com/
+                └── hotel/
+                    └── booking/
+                        └── BookingApplicationTests.java
 
 ```
 
 
----
 
 ## 🛠️ Development Setup
 
