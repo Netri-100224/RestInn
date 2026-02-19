@@ -66,78 +66,77 @@ One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_M
 - Assign manager roles to users
 - Access all system-wide data
 
----
 
 
 ```
+
 
 ## 📁 Project Structure
 
-```
-.
-├── .mvn
-│   └── wrapper
-│       └── maven-wrapper.properties
+RestInn/
+├── .mvn/
+│ └── wrapper/
+│ └── maven-wrapper.properties
 ├── mvnw
 ├── mvnw.cmd
 ├── pom.xml
-└── src
-    ├── main
-    │   ├── java
-    │   │   └── com
-    │   │       └── hotel
-    │   │           └── booking
-    │   │               ├── BookingApplication.java
-    │   │               ├── Config
-    │   │               │   ├── CustomAccessHandler.java
-    │   │               │   ├── JWTAuthenticationFilter.java
-    │   │               │   └── SecurityConfig.java
-    │   │               ├── Controller
-    │   │               │   ├── AuthController.java
-    │   │               │   ├── BookingController.java
-    │   │               │   └── HotelController.java
-    │   │               ├── DTO
-    │   │               │   ├── AuthRequest.java
-    │   │               │   ├── AuthResponse.java
-    │   │               │   ├── BookingMapper.java
-    │   │               │   ├── BookingRequest.java
-    │   │               │   ├── BookingResponse.java
-    │   │               │   ├── HotelRequest.java
-    │   │               │   ├── HotelResponse.java
-    │   │               │   ├── RegisterRequest.java
-    │   │               │   └── UserResponse.java
-    │   │               ├── Entity
-    │   │               │   ├── Booking.java
-    │   │               │   ├── Hotel.java
-    │   │               │   ├── Role.java
-    │   │               │   └── User.java
-    │   │               ├── Exception
-    │   │               │   ├── BookingNotFoundException.java
-    │   │               │   ├── GlobalExceptionHandler.java
-    │   │               │   ├── HotelNotFoundException.java
-    │   │               │   ├── HotelRoomsNotAvailableException.java
-    │   │               │   ├── IncorrectDateException.java
-    │   │               │   ├── UserAlreadyExistsException.java
-    │   │               │   └── UserNotFoundException.java
-    │   │               ├── Repository
-    │   │               │   ├── BookingRepository.java
-    │   │               │   ├── HotelRepository.java
-    │   │               │   └── UserRepository.java
-    │   │               └── Service
-    │   │                   ├── AuthService.java
-    │   │                   ├── BookingService.java
-    │   │                   ├── HotelService.java
-    │   │                   ├── JWTService.java
-    │   │                   └── UserService.java
-    │   └── resources
-    │       └── application.properties.template
-    └── test
-        └── java
-            └── com
-                └── hotel
-                    └── booking
-                        └── BookingApplicationTests.java
+└── src/
+├── main/
+│ ├── java/
+│ │ └── com/hotel/booking/
+│ │ ├── BookingApplication.java
+│ │ ├── Config/
+│ │ │ ├── CustomAccessHandler.java
+│ │ │ ├── JWTAuthenticationFilter.java
+│ │ │ └── SecurityConfig.java
+│ │ ├── Controller/
+│ │ │ ├── AuthController.java
+│ │ │ ├── BookingController.java
+│ │ │ └── HotelController.java
+│ │ ├── DTO/
+│ │ │ ├── AuthRequest.java
+│ │ │ ├── AuthResponse.java
+│ │ │ ├── BookingMapper.java
+│ │ │ ├── BookingRequest.java
+│ │ │ ├── BookingResponse.java
+│ │ │ ├── HotelRequest.java
+│ │ │ ├── HotelResponse.java
+│ │ │ ├── RegisterRequest.java
+│ │ │ └── UserResponse.java
+│ │ ├── Entity/
+│ │ │ ├── Booking.java
+│ │ │ ├── Hotel.java
+│ │ │ ├── Role.java
+│ │ │ └── User.java
+│ │ ├── Exception/
+│ │ │ ├── BookingNotFoundException.java
+│ │ │ ├── GlobalExceptionHandler.java
+│ │ │ ├── HotelNotFoundException.java
+│ │ │ ├── HotelRoomsNotAvailableException.java
+│ │ │ ├── IncorrectDateException.java
+│ │ │ ├── UserAlreadyExistsException.java
+│ │ │ └── UserNotFoundException.java
+│ │ ├── Repository/
+│ │ │ ├── BookingRepository.java
+│ │ │ ├── HotelRepository.java
+│ │ │ └── UserRepository.java
+│ │ └── Service/
+│ │ ├── AuthService.java
+│ │ ├── BookingService.java
+│ │ ├── HotelService.java
+│ │ ├── JWTService.java
+│ │ └── UserService.java
+│ └── resources/
+│ └── application.properties.template
+└── test/
+└── java/com/hotel/booking/
+└── BookingApplicationTests.java
+
+
 ```
+
+
+---
 
 ## 🛠️ Development Setup
 
@@ -145,19 +144,20 @@ One-to-One (Hotel → Manager): A hotel is managed by one user with role HOTEL_M
 1. Install Java (JDK 11+ recommended)
 2. Install Maven
 3. Install dependencies: `mvn install`
-4. Run the project: `mvn exec:java` or check `pom.xml` for specific run commands
+4. Run the project: `mvn exec:java` (or check `pom.xml` for specific run commands)
 
+---
 
 ## 👥 Contributing
 
 Contributions are welcome! Here's how you can help:
 
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/Netri-100224/RestInn.git`
-3. **Create** a new branch: `git checkout -b feature/your-feature`
-4. **Commit** your changes: `git commit -am 'Add some feature'`
-5. **Push** to your branch: `git push origin feature/your-feature`
-6. **Open** a pull request
+1. **Fork** the repository  
+2. **Clone** your fork: `git clone https://github.com/Netri-100224/RestInn.git`  
+3. **Create a new branch:** `git checkout -b feature/your-feature`  
+4. **Commit your changes:** `git commit -am 'Add some feature'`  
+5. **Push to your branch:** `git push origin feature/your-feature`  
+6. **Open a pull request**
 
 Please ensure your code follows the project's style guidelines and includes tests where applicable.
 
